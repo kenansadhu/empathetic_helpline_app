@@ -6,7 +6,7 @@ import random
 # -------------------------------------------------------
 # 1. PASTE YOUR OPENAI KEY HERE
 # -------------------------------------------------------
-openai.api_key = "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"  # <-- Replace with your key
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 
 # -------------------------------------------------------
