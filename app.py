@@ -13,7 +13,7 @@ openai.api_key = "sk-proj-8mg6sq-Ok_fK-LD4YwLELl5aCD35ELdF0CeHsSgDhkjl72tlDHOprJ
 # 2. LOAD YOUR DATASET
 # -------------------------------------------------------
 try:
-    df = pd.read_csv("data/empathetic_dialogues.csv")
+    df = pd.read_csv("empathetic_dialogues.csv")
 except Exception as e:
     st.error(f"Error loading 'emphatetic_dialogues.csv': {e}")
     st.stop()
